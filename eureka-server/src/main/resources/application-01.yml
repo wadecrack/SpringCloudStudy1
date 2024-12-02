@@ -1,0 +1,17 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: eurekaserver
+eureka:
+  instance:
+    hostname: eureka01
+  # 开启之前需要修改一下客户端设置（虽然是服务端
+  client:
+  # 由于我们是作为服务端角色，所以不需要获取服务端，改为false，默认为true
+    fetch-registry: false
+
+
+    service-url:
+      # 搭建eureka服务器集群时注意这里填写其他Eureka服务器的地址，不用写自己的
+      defaultZone: http://localhost:8802/eureka

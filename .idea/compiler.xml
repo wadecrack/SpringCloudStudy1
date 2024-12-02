@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="user-service" />
         <module name="book-service" />
+        <module name="eureka-server" />
         <module name="commons" />
         <module name="borrow-service" />
       </profile>
