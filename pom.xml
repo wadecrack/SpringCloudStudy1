@@ -12,6 +12,7 @@
         <module>borrow-service</module>
         <module>commons</module>
         <module>eureka-server</module>
+        <module>gateway-server</module>
     </modules>
     <name>SpringCloudStudy</name>
     <description>SpringCloudStudy</description>
